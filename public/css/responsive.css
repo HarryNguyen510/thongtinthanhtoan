@@ -1,47 +1,99 @@
 @media only screen and (max-width: 410px) {
     .container {
         width: 100vw;
+        padding: 30px 16px;
     }
 }
 
 @media only screen and (max-width: 360px) {
+    .container {
+        padding: 24px 12px;
+    }
     .modal {
         width: 320px;
+    }
+    .title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .banks ~ a {
+        padding: 14px 20px;
+        font-size: 14px;
     }
 }
 
 @media only screen and (max-width: 355px) {
+    .profile-header {
+        padding: 16px;
+        margin-bottom: 30px;
+    }
     .profile-avatar {
         width: 90px;
         height: 90px;
+        border-radius: 20px;
     }
     .profile-name {
         font-size: 20px;
+    }
+    .profile-info {
+        padding: 0px 15px;
     }
     .check-mark {
         font-size: 16px;
     }
     .bank {
         height: 70px;
+        border-radius: 16px;
+    }
+    .bank-logo {
+        border-radius: 16px 0 0 16px;
+        padding: 10px;
     }
     .bank-info {
         padding: 10px;
     }
-    .bank-info > p {
+    .bank-name {
         font-size: 13px;
+    }
+    .bank-number {
+        font-size: 13px;
+    }
+    .bank-owner {
+        font-size: 11px;
+    }
+    .btn-copy {
+        width: 65px;
+        padding: 7px 12px;
+        right: 12px;
     }
     .modal {
         width: 315px;
+        border-radius: 20px;
+    }
+    .modal-top {
+        padding: 32px 24px;
+    }
+    .modal-top img {
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media only screen and (max-width: 320px) {
+    .container {
+        padding: 20px 10px;
+    }
     .banks ~ a {
         font-size: 12px;
-        padding: 10px;
+        padding: 12px 16px;
+        border-radius: 12px;
     }
     .banks ~a > .pay-here {
         display: none;
+    }
+    .profile-header {
+        padding: 12px;
+        border-radius: 20px;
     }
     .profile-avatar {
         width: 80px;
@@ -50,22 +102,66 @@
     .profile-name {
         font-size: 18px;
     }
+    .profile-info {
+        padding: 0px 12px;
+    }
     .check-mark {
         font-size: 14px;
     }
+    .skill-tag {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .title {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
     .bank {
         height: 65px;
+        border-radius: 14px;
+        margin-bottom: 12px;
+    }
+    .bank-logo {
+        border-radius: 14px 0 0 14px;
+        padding: 8px;
     }
     .bank-info {
         padding: 7.5px 5px;
     }
-    .bank-info > p {
+    .bank-name {
+        font-size: 11px;
+    }
+    .bank-number {
+        font-size: 11px;
+    }
+    .bank-owner {
         font-size: 10px;
     }
     .btn-copy {
+        width: 60px;
         font-size: 10px;
+        padding: 6px 10px;
+        right: 10px;
     }
     .modal {
         width: 295px;
+        border-radius: 18px;
+    }
+    .modal-top {
+        padding: 28px 20px;
+    }
+    .modal-top img {
+        width: 90px;
+        height: 90px;
+    }
+    .modal-top .modal-title {
+        font-size: 16px;
+    }
+    .modal-top .modal-content {
+        font-size: 13px;
+    }
+    .modal-btn {
+        padding: 14px 0px;
+        font-size: 14px;
     }
 }
